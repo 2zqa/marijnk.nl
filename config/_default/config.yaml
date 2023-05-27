@@ -1,16 +1,10 @@
 baseURL: /
-title: Eureka Demo
-
-# Uncomment when not installing with Hugo Modules
-# theme: eureka
-# Comment when not installing with Hugo Modules
+title: Marijns onzin
 theme: wangchucheng.com/hugo-eureka
-# If you cannot access the Github mirror, you can also use the Gitee mirror: gitee.com/wangchucheng/hugo-eureka
 
-paginate: 3
+paginate: 5
 copyright: >
-  &copy; 2021 <a href="https://www.wangchucheng.com/">WANG Chucheng</a> and <a
-  href="https://www.ruiqima.com/">MA Ruiqi</a>
+  &copy; Marijn Kok
 enableEmoji: true
 enableGitInfo: false
 summaryLength: 75
@@ -18,9 +12,6 @@ summaryLength: 75
 defaultContentLanguage: en
 hasCJKLanguage: false # Set `true` for Chinese/Japanese/Korean.
 defaultContentLanguageInSubdir: false
-
-# Uncomment for google analytics
-# googleAnalytics: UA-123-45
 
 markup:
   # Do not modify markup.highlight
@@ -38,7 +29,6 @@ markup:
 taxonomies:
   category: categories
   tag: tags
-  series: series
   author: authors
 
 build:
