@@ -1,5 +1,5 @@
 ---
-title: Experience
+title: Ervaring
 draft: false
 experiences:
   - title: Example Role 1
