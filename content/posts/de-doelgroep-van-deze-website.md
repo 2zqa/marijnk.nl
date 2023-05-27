@@ -1,12 +1,8 @@
 ---
 title: Wat is de doelgroep van deze site?
-author: Marijn
+authors: Marijn Kok
 type: post
 date: 2022-04-10T21:16:31+00:00
-url: /de-doelgroep-van-deze-website/
-categories:
-  - Ongecategoriseerd
-
 ---
 Na het maken van deze website realiseerde ik me dat ik niet goed wist voor wie ik eigenlijk zou gaan schrijven. Er zijn talloze aspecten waar je rekening mee kan houden, maar ik wil me focussen op de volgende drie: taal, interesses en behoefte voor diepgang.
 

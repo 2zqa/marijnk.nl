@@ -1,16 +1,8 @@
 ---
-title: Nieuw Likje Verf
-description:
-toc: true
+title: Nieuw likje verf
 authors: Marijn Kok
-tags: []
-categories: []
-series: []
 date: 2023-05-14T17:30:39+02:00
 lastmod: 2023-05-14T17:30:39+02:00
-featuredVideo:
-featuredImage:
-draft: false
 ---
 De website heeft een nieuw ontwerp. Dit komt omdat ik nu een nieuw programma genaamd hugo gebruik. Met dit programma kan je snel websites genereren. Het voordeel van hugo is dat de gegenereerde website veiliger en sneller is. Bovendien is het onderhoud ook simpeler. De code van deze website is te vinden op mijn [GitHub profiel](https://github.com/2zqa).
 

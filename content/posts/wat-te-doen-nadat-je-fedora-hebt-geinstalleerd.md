@@ -4,7 +4,7 @@ author: Marijn
 type: post
 date: 2022-06-05T10:45:58+00:00
 url: /wat-te-doen-nadat-je-fedora-hebt-geinstalleerd/
-featured_image: /wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-15-06-06-min.png
+featuredImage: /images/fedora.png
 categories:
   - Linux
 tags:
@@ -25,163 +25,21 @@ Ga naar Instellingen > Info > Apparaatnaam en kies een nieuwe naam. Mijne heet l
 
 ## 2. Handige flatpak apps {.wp-block-heading}
 
-_Flatpak_ is een prachtig systeem om (zonder root!) gemakkelijk apps te installeren, beheren en te verwijderen. Bijna al mijn apps zijn geïnstalleerd via flatpak. Ik maak veel gebruik van onderstaande apps en kan ze sterk aanraden. Flatpak apps zijn te installeren vanuit de Software-app of via de terminal: `flatpak install <pakketnaam>`.<figure class="wp-block-table alignwide is-style-stripes">
+_Flatpak_ is een prachtig systeem om (zonder root!) gemakkelijk apps te installeren, beheren en te verwijderen. Bijna al mijn apps zijn geïnstalleerd via flatpak. Ik maak veel gebruik van onderstaande apps en kan ze sterk aanraden. Flatpak apps zijn te installeren vanuit de Software-app of via de terminal: `flatpak install <pakketnaam>`.
 
-<table class="has-fixed-layout">
-  <tr>
-    <th>
-      Naam
-    </th>
-    
-    <th>
-      Pakketnaam
-    </th>
-    
-    <th>
-      Omschrijving
-    </th>
-  </tr>
-  
-  <tr>
-    <td>
-      Curtail
-    </td>
-    
-    <td>
-      com.github.huluti.Curtail
-    </td>
-    
-    <td>
-      Comprimeer foto&#8217;s. Heeft optie om zonder of met kwaliteitsverlies te comprimeren (met kwaliteitsverlies betekent nóg meer ruimtebesparing)
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Metagegevensopruiming
-    </td>
-    
-    <td>
-      fr.romainvigier.MetadataCleaner
-    </td>
-    
-    <td>
-      Metadata van bestanden verwijderen, aan te raden voordat je foto&#8217;s op het wereldwijde web zet
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Apostrophe
-    </td>
-    
-    <td>
-      org.gnome.gitlab.somas.Apostrophe
-    </td>
-    
-    <td>
-      Markdown tekstbewerker
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Amberol
-    </td>
-    
-    <td>
-      io.bassi.Amberol
-    </td>
-    
-    <td>
-      Lokale muziekspeler
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Uitbreidingsbeheer
-    </td>
-    
-    <td>
-      com.mattjakeman.ExtensionManager
-    </td>
-    
-    <td>
-      Beheer en installeer uitbreidingen voor GNOME
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Pinta
-    </td>
-    
-    <td>
-      com.github.PintaProject.Pinta
-    </td>
-    
-    <td>
-      Handig fotobewerkingsprogramma, alternatief op het Windows exclusieve programma &#8220;Paint.NET&#8221;
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Xournal++
-    </td>
-    
-    <td>
-      com.github.xournalpp.xournalpp
-    </td>
-    
-    <td>
-      Pdf&#8217;s annoteren, notities maken, werkt goed met touchscreen
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      MusicBrainz
-    </td>
-    
-    <td>
-      org.musicbrainz.Picard
-    </td>
-    
-    <td>
-      Muziektagger
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Prism Launcher
-    </td>
-    
-    <td>
-      org.prismlauncher.PrismLauncher
-    </td>
-    
-    <td>
-      Alternatieve Minecraft launcher met moddingondersteuning
-    </td>
-  </tr>
-  
-  <tr>
-    <td>
-      Thunderbird
-    </td>
-    
-    <td>
-      org.mozilla.Thunderbird
-    </td>
-    
-    <td>
-      E-mailprogramma
-    </td>
-  </tr>
-</table></figure> 
+| Naam | Pakketnaam | Omschrijving |
+|:---:|:---:|:---:|
+| Curtail | com.github.huluti.Curtail | Comprimeer foto’s. Heeft optie om zonder of met kwaliteitsverlies te comprimeren (met kwaliteitsverlies betekent nóg meer ruimtebesparing) |
+| Metagegevensopruiming | `fr.romainvigier.MetadataCleaner` | Metadata van bestanden verwijderen, aan te raden voordat je foto’s op het wereldwijde web zet |
+| Apostrophe | org.gnome.gitlab.somas.Apostrophe | Markdown tekstbewerker |
+| Amberol | io.bassi.Amberol | Lokale muziekspeler |
+| Uitbreidingsbeheer | com.mattjakeman.ExtensionManager | Beheer en installeer uitbreidingen voor GNOME |
+| Pinta | com.github.PintaProject.Pinta | Handig fotobewerkingsprogramma, alternatief op het Windows exclusieve programma “Paint.NET” |
+| Xournal++ | com.github.xournalpp.xournalpp | Pdf’s annoteren, notities maken, werkt goed met touchscreen |
+| MusicBrainz | org.musicbrainz.Picard | Muziektagger |
+| Prism Launcher | org.prismlauncher.PrismLauncher | Alternatieve Minecraft launcher met moddingondersteuning |
+| Thunderbird | org.mozilla.Thunderbird | E-mailprogramma |
+
 
 ## 3. Handige uitbreidingen {.wp-block-heading}
 
@@ -223,7 +81,7 @@ mousewheel.default.delta_multiplier_y: 30</code></pre>
 
 Installeer de flatpak én de reguliere versie om ervoor te zorgen dat al je apps het nieuwe thema krijgen. Het thema kan met de Afstellingen-app ingesteld worden onder het kopje &#8220;Uiterlijk&#8221;, of automatisch met een extensie. Zie daarvoor het volgende kopje!<figure class="wp-block-gallery has-nested-images columns-default is-cropped alignwide wp-block-gallery-1 is-layout-flex"> <figure class="wp-block-image size-full">
 
-[<img decoding="async" loading="lazy" width="694" height="533" data-id="129"  src="https://marijnk.nl/wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-19-40-12.png" alt="Tilix met standaard Adwaita thema" class="wp-image-129" srcset="https://marijnk.nl/wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-19-40-12.png 694w, https://marijnk.nl/wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-19-40-12-300x230.png 300w" sizes="(max-width: 694px) 100vw, 694px" />][3]<figcaption class="wp-element-caption">Standaard-thema (oud)</figcaption></figure> <figure class="wp-block-image size-full is-style-default">[<img decoding="async" loading="lazy" width="712" height="551" data-id="128"  src="https://marijnk.nl/wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-19-39-46.png" alt="Tilix met adw-gtk3 thema" class="wp-image-128" srcset="https://marijnk.nl/wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-19-39-46.png 712w, https://marijnk.nl/wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-19-39-46-300x232.png 300w" sizes="(max-width: 712px) 100vw, 712px" />][4]<figcaption class="wp-element-caption">adw-gtk3 (nieuw)</figcaption></figure> <figcaption class="blocks-gallery-caption wp-element-caption">Tilix met en zonder thema</figcaption></figure> 
+[<img decoding="async" loading="lazy" width="694" height="533" data-id="129"  src="https://marijnk.nl/wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-19-40-12.png" alt="Tilix met standaard Adwaita thema" class="wp-image-129" srcset="https://marijnk.nl/wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-19-40-12.png 694w, https://marijnk.nl/wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-19-40-12-300x230.png 300w" sizes="(max-width: 694px) 100vw, 694px" />][3]<figcaption class="wp-element-caption">Standaard-thema (oud)</figcaption></figure> <figure class="wp-block-image size-full is-style-default">[<img decoding="async" loading="lazy" width="712" height="551" data-id="128"  src="https://marijnk.nl/wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-19-39-46.png" alt="Tilix met adw-gtk3 thema" class="wp-image-128" srcset="https://marijnk.nl/wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-19-39-46.png 712w, https://marijnk.nl/wp-content/uploads/2022/06/Schermafdruk-van-2022-06-04-19-39-46-300x232.png 300w" sizes="(max-width: 712px) 100vw, 712px" />][4]<figcaption class="wp-element-caption">adw-gtk3 (nieuw)</figcaption></figure> <figcaption class="blocks-gallery-caption wp-element-caption">Tilix met en zonder thema</figcaption></figure>
 
 ## 8. Automatische nachtmodus {.wp-block-heading}
 
