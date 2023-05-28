@@ -43,6 +43,6 @@ widget:
     attachment:
 ---
 
-# Hoi!
+# Welkom
 
 Ik ben Marijn, student aan de Hanzehogeschool Groningen. Ik ben fan van vrije en openbronsoftware, technologie, muziek luisteren en gitaar spelen. Op deze site kan je lezen over mijn hobby’s, projecten, gedachten en overige bezigheden.
