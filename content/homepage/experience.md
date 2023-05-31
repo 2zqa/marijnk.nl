@@ -11,7 +11,7 @@ experiences:
     writeup: >
       Als stagiair bij Voys ben ik verantwoordelijk voor het opzetten van een single source of truth (SSOT). Mijn verantwoordelijkheden omvatten:
 
-      - Het opzetten van programma's voor het uitlezen, verzamelen en weergeven van systeeminformatie
+      - Het opzetten van programma's voor het uitlezen, verzamelen en weergeven van hardware- en netwerkinformatie
 
       - Projectmatig te werk gaan
 
