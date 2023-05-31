@@ -9,11 +9,16 @@ experiences:
     dates: "sep. 2019 - aug. 2023"
     location: Groningen, Nederland
     writeup: >
-      Aan de Hanzehogeschool Groningen volg ik een Bacheloropleiding in HBO-ICT met als Software Engineering (SE) als major. Enkele van de vaardigheden die ik tijdens mijn studie heb ontwikkeld, zijn:
+      Aan de Hanzehogeschool Groningen volg ik een Bacheloropleiding in HBO-ICT met Software Engineering (SE) als major. Tijdens mijn opleiding heb ik verschillende vaardigheden en kennis opgedaan, waaronder:
 
-      - Het oplossen van problemen met computerhardware.
+      - Het ontwikkelen van software in verschillende programmeertalen, waaronder Java, Python, C en TypeScript.
 
-      - Programmeren in talen zoals Java en Python.
+      - Kennisgemaakt met machine learning.
+
+      - Samenwerken in Agile teams met behulp van Scrum-methodologie.
+
+      - Het volgen van de minor Privacy Management.
+
 
   - title: Scholier
     organization:
