@@ -1,1 +1,1 @@
-<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}{{ if strings.HasPrefix .Destination "http" }}<i class="fas fa-link ms-1"></i>{{ end }}</a>
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}>{{ .Text | safeHTML }}{{ if strings.HasPrefix .Destination "http" }}<i style="opacity: 0.5" class="fas fa-link ms-1"></i>{{ end }}</a>
