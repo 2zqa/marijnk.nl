@@ -15,6 +15,8 @@ tags:
 
 MusicBrainz Picard is een programma om je lokale muziekbibliotheek bij te houden. Het maakt gebruik van de open muziekencyclopedie MusicBrainz. Wanneer het werkt is het fijn, maar soms wordt muziek niet herkend. Wat doe je dan?
 
+<!--more-->
+
 Als je muziek niet herkend wordt, betekent dit dat het nog niet op MusicBrainz staat. Je zou kunnen wachten tot iemand anders het doet, maar dan kan je soms lang wachten. Daarom leg ik je in dit artikel uit hoe je het heft in eigen handen kan nemen, in de vorm van korte, beknopte instructies.
 
 ## Voorbereiding
