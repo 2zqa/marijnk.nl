@@ -6,6 +6,7 @@ toc: true
 date: 2022-06-05T10:45:58+00:00
 lastmod: 2023-04-01T10:00:00+00:00
 featuredImage: /images/fedora.png
+summary: Een lijst van aanpassingen, apps en tips die handig zijn na een nieuwe Fedora installatie. Ook nuttig als je een andere Linux distro gebruikt.
 categories:
   - Linux
 tags:
