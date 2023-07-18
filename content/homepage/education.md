@@ -2,7 +2,7 @@
 title: Opleiding
 draft: false
 experiences:
-  - title: Student
+  - title: Student HBO-ICT
     organization:
       name: Hanzehogeschool Groningen
       url: https://www.hanze.nl/
@@ -20,14 +20,14 @@ experiences:
       - Het volgen van de minor Privacy Management.
 
 
-  - title: Scholier
+  - title: Scholier N&G + N&T
     organization:
       name: Goois Lyceum
       url: https://www.gooislyceum.nl/
     dates: "2012 - 2018"
     location: Bussum, Nederland
     writeup: >
-      Op het Goois Lyceum heb ik mijn middelbare schoolopleiding gevolgd. Ik heb mijn HAVO-diploma behaald met het profiel N&G+N&T.
+      Op het Goois Lyceum heb ik mijn middelbare schoolopleiding gevolgd. Ik heb mijn HAVO-diploma behaald met het profiel N&G + N&T.
 
 weight: 4
 widget:
