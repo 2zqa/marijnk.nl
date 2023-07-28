@@ -17,6 +17,19 @@ experiences:
 
       - Wensen en eisen van stakeholders in kaart brengen en implementeren
 
+  - title: Web-IQ stagiair
+    organization:
+      name: Web-IQ
+      url: https://web-iq.com/
+    dates: "feb. 2022 - sept. 2022"
+    location: Groningen, Nederland
+    writeup: >
+      Als stagiair bij Web-IQ heb ik gewerkt aan een proof of concept van het bijwerken van een stuk software. Mijn verantwoordelijkheden omvatten:
+
+      - Projectmatig te werk gaan
+
+      - Wensen en eisen van stakeholders in kaart brengen en implementeren mits deze mogelijk waren
+
   - title: Computerspecialist
     organization:
       name: Uw Computerstudent
