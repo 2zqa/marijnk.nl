@@ -4,7 +4,7 @@ Personal blog and CV
 
 ## Description
 
-This is the repository for my personal website. It is built with [Hugo] and is hosted right here with GitHub Pages. This website uses the [Hugo Eureka] theme.
+This is the repository for my personal website. It is built with [Hugo] and is hosted right here with GitHub Pages. This website uses the [Eureka] theme.
 
 ## Getting Started
 
@@ -20,13 +20,12 @@ This is the repository for my personal website. It is built with [Hugo] and is h
 
 ## License
 
-This project is licensed under the Apache-2.0 license - see the LICENSE file for details
+This project is licensed under the [Apache-2.0](LICENSE) license.
 
 ## Acknowledgments
 
-* [Hugo Eureka] by WANG Chucheng for the theme
+* WANG Chucheng for creating the [Eureka] theme
 
-
-[Hugo Eureka]: https://themes.gohugo.io/hugo-eureka/
+[Eureka]: https://themes.gohugo.io/hugo-eureka/
 [Hugo]: https://gohugo.io/
 [hugo-install]: https://gohugo.io/installation/
