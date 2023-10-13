@@ -1,6 +1,5 @@
 ---
 title: Ervaring
-draft: false
 experiences:
   - title: Infrastructuur stagiair
     organization:
@@ -9,13 +8,13 @@ experiences:
     dates: "feb. 2023 - heden"
     location: Groningen, Nederland
     writeup: >
-      Als stagiair bij Voys ben ik verantwoordelijk voor het opzetten van een single source of truth (SSOT). Mijn verantwoordelijkheden omvatten:
+      Bij mijn afstudeerstage bij Voys ben ik verantwoordelijk geweest voor het opzetten van een "single source of truth" (SSOT). Ik heb onder andere:
 
-      - Het opzetten van programma's voor het uitlezen, verzamelen en weergeven van hardware- en netwerkinformatie
+      - projectmatig gewerkt;
 
-      - Projectmatig te werk gaan
+      - programma's ontworpen en ontwikkeld voor het uitlezen, verzamelen en weergeven van hardware- en netwerkinformatie;
 
-      - Wensen en eisen van stakeholders in kaart brengen en implementeren
+      - tientallen requirements en vijftien user stories van stakeholders in kaart gebracht en grotendeels implementeren.
 
   - title: Web-IQ stagiair
     organization:
@@ -26,9 +25,9 @@ experiences:
     writeup: >
       Als stagiair bij Web-IQ heb ik gewerkt aan een proof of concept van het bijwerken van een stuk software. Mijn verantwoordelijkheden omvatten:
 
-      - Projectmatig te werk gaan
+      - projectmatig te werk gaan;
 
-      - Wensen en eisen van stakeholders in kaart brengen en implementeren mits deze mogelijk waren
+      - wensen en eisen van stakeholders in kaart brengen en implementeren.
 
   - title: Computerspecialist
     organization:
@@ -37,18 +36,18 @@ experiences:
     dates: "jun. 2019 - feb. 2023"
     location: Nederland
     writeup: >
-      Als computerspecialist bij Uw Computerstudent bood ik technische ondersteuning aan klanten met computerproblemen. Mijn verantwoordelijkheden omvatten:
+      Als computerspecialist bij Uw Computerstudent bood ik technische ondersteuning aan klanten. Ik was medewerker van de maand in mei 2022. Bij Uw Computerstudent hielp ik klanten bijvoorbeeld met:
 
-      - Het installeren en configureren van software.
+      - het installeren en configureren van softwareprogramma's;
 
-      - Lesgeven aan klanten over het gebruik van computers en software.
+      - lesgeven aan klanten over het gebruik van computers en software;
 
-      - Zelfstandig afspraken plannen en uitvoeren.
+      - gemiddeld twee à drie keer per week zelfstandig afspraken plannen en uitvoeren.
 
 weight: 3
 widget:
   handler: experience
   width: lg
   sidebar:
-      position: left
+    position: left
 ---

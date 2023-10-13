@@ -6,19 +6,18 @@ experiences:
     organization:
       name: Hanzehogeschool Groningen
       url: https://www.hanze.nl/
-    dates: "sep. 2019 - aug. 2023"
+    dates: "sep. 2019 - sept. 2023"
     location: Groningen, Nederland
     writeup: >
-      Aan de Hanzehogeschool Groningen volg ik een Bacheloropleiding in HBO-ICT met Software Engineering (SE) als major. Tijdens mijn opleiding heb ik verschillende vaardigheden en kennis opgedaan, waaronder:
+      Aan de Hanzehogeschool Groningen volgde ik een bacheloropleiding in HBO-ICT met Software Engineering (SE) als major. Tijdens mijn opleiding heb ik verschillende vaardigheden en kennis opgedaan, waaronder:
 
-      - Het ontwikkelen van software in verschillende programmeertalen, waaronder Java, Python, C en TypeScript.
+      - het ontwikkelen van software in verschillende programmeertalen, waaronder Java, Python, C en TypeScript;
 
-      - Kennisgemaakt met machine learning.
+      - samenwerken in Agile teams met behulp van Scrum-methodologie;
 
-      - Samenwerken in Agile teams met behulp van Scrum-methodologie.
+      - het volgen van de minor Privacy Management;
 
-      - Het volgen van de minor Privacy Management.
-
+      - kennisgemaakt met machine learning.
 
   - title: Scholier N&G + N&T
     organization:
