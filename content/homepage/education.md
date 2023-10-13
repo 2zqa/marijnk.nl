@@ -9,7 +9,7 @@ experiences:
     dates: "sep. 2019 - sept. 2023"
     location: Groningen, Nederland
     writeup: >
-      Aan de Hanzehogeschool Groningen volgde ik een bacheloropleiding in HBO-ICT met Software Engineering (SE) als major. Tijdens mijn opleiding heb ik verschillende vaardigheden en kennis opgedaan, waaronder:
+      Aan de Hanzehogeschool Groningen volgde ik een bacheloropleiding in HBO-ICT met Software Engineering (SE) als major, met gemiddeld cijfer van een 7.2. Tijdens mijn opleiding heb ik verschillende vaardigheden en kennis opgedaan, waaronder:
 
       - het ontwikkelen van software in verschillende programmeertalen, waaronder Java, Python, C en TypeScript;
 
