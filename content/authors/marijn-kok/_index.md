@@ -14,9 +14,6 @@ social:
   - icon: github
     iconPack: fab
     url: https://github.com/2zqa
-  - icon: bandcamp
-    iconPack: fab
-    url: https://bandcamp.com/2zqa
 
 weight: 1
 widget:
