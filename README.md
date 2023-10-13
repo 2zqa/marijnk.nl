@@ -10,7 +10,8 @@ This is the repository for my personal website. It is built with [Hugo] and is h
 
 ### Dependencies
 
-* [Hugo][hugo-install] (tested on v.101.0)
+* [Hugo][hugo-install] (tested on v0.119.0)
+* Go (tested on v1.21.3)
 
 ### Running it locally
 
