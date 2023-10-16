@@ -14,5 +14,5 @@
     />
 </picture>
 {{- else -}}
-<p>Couldn't load image</p>
+{{ errorf "The %q shortcode requires a src parameter. See %s" .Name .Position }}
 {{- end -}}
