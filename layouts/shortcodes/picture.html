@@ -1,0 +1,18 @@
+{{ $image := .Page.Resources.GetMatch (.Get "src" ) -}}
+{{ if $image -}}
+
+{{ $mediaQuery := slice "768" "1024" "1280" -}}
+{{ $imageWebp := $image.Resize (printf "%dx%d webp" $image.Width $image.Height) -}}
+{{ $imageJpg := $image.Resize (printf "%dx%d jpeg" $image.Width $image.Height) -}}
+
+<picture>
+    <source srcset="{{ $imageWebp.RelPermalink }}" type="image/webp">
+    <source srcset="{{ $imageJpg.RelPermalink }}" type="image/jpg">
+    <img src="{{ $image.RelPermalink }}" width="{{ $image.Width }}" height="{{ $image.Height }}"
+        {{ with .Get "alt" }} alt="{{ . }}"{{ end -}}
+        {{ with .Get "title" }} title="{{ . }}"{{ end -}}
+    />
+</picture>
+{{- else -}}
+{{ errorf "The %q shortcode requires a src parameter. See %s" .Name .Position }}
+{{- end -}}

@@ -1,0 +1,6 @@
+<figure>
+    {{ .Inner }}
+    {{ with .Get "caption" | markdownify }}
+    <figcaption>{{ . }}</figcaption>
+    {{ end }}
+</figure>
