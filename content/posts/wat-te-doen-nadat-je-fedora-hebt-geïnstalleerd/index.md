@@ -84,8 +84,8 @@ mousewheel.default.delta_multiplier_y: 30
 
 Installeer de flatpak én de reguliere versie om ervoor te zorgen dat al je apps het nieuwe thema krijgen. Het thema kan met de Afstellingen-app ingesteld worden onder het kopje "Uiterlijk", of automatisch met een extensie. Zie daarvoor het volgende kopje!
 
-{{< figure caption="Standaard-thema (oud)" >}}{{< image src="images/tilix-adwaita.png" >}}{{< /figure >}}
-{{< figure caption="adw-gtk3 (nieuw)" >}}{{< image src="images/tilix-adw-gtk3.png" >}}{{< /figure >}}
+{{< figure caption="Standaard-thema (oud)" >}}{{< picture src="images/tilix-adwaita.png" >}}{{< /figure >}}
+{{< figure caption="adw-gtk3 (nieuw)" >}}{{< picture src="images/tilix-adw-gtk3.png" >}}{{< /figure >}}
 
 ## 8. Automatische nachtmodus
 
