@@ -1,0 +1,1 @@
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">{{ .Text | safeHTML }}{{ if strings.Contains .Page.RelPermalink "/posts" }} <a style="opacity: 0.5" href="#{{ .Anchor | safeURL }}">#</a>{{ end }}</h{{ .Level }}>
