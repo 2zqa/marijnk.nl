@@ -1,12 +1,12 @@
 ---
 title: Marijn Kok
 draft: false
-role: Student
+role: Backend Developer
 avatar: images/me.jpg
 bio:
 organization:
-  name: Hanzehogeschool Groningen
-  url: https://www.hanze.nl/
+  name: Voys
+  url: https://www.voys.nl/
 social:
   - icon: linkedin
     iconPack: fab
@@ -42,4 +42,4 @@ widget:
 
 # Welkom
 
-Ik ben Marijn, student aan de Hanzehogeschool Groningen. Ik ben fan van vrije en openbronsoftware, technologie, muziek luisteren en gitaar spelen. Op deze site kan je lezen over mijn hobby’s, projecten, gedachten en overige bezigheden.
+Ik ben Marijn, Backend Developer bij Voys. Ik ben fan van vrije en openbronsoftware, technologie, muziek luisteren en gitaar spelen. Op deze site kan je lezen over mijn hobby’s, projecten, gedachten en overige bezigheden.

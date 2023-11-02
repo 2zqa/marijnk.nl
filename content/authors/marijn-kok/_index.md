@@ -42,4 +42,4 @@ widget:
 
 # Over mij
 
-Ik ben Marijn, student aan de Hanzehogeschool Groningen. Ik ben fan van vrije en openbronsoftware, technologie, muziek luisteren en gitaar spelen.
+Ik ben Marijn, Backend Developer bij Voys. Ik ben fan van vrije en openbronsoftware, technologie, muziek luisteren en gitaar spelen.
