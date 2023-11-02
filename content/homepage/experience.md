@@ -1,6 +1,12 @@
 ---
 title: Ervaring
 experiences:
+  - title: Backend Developer
+    organization:
+      name: Voys
+      url: https://www.voys.nl/
+    dates: "nov. 2023 - heden"
+    location: Groningen, Nederland
   - title: Infrastructuur stagiair
     organization:
       name: Voys
