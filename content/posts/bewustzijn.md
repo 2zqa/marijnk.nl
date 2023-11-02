@@ -8,7 +8,7 @@ draft: true
 ---
 Volgens moderne wetenschap wordt gesteld dat vrije wil niet bestaat.[^1] Tot recentelijk kon ik dit niet volledig begrijpen: we begrijpen namelijk niet hoe bewustzijn werkt.[^2] Maar deze twee observaties sluiten elkaar niet uit.
 
-Immers: Zelfs als bewustzijn niet onder de natuurwetten valt, valt het lichaam hier wel onder. Daardoor is te stellen dat het deterministisch is. Dit betekent dat volledig te bepalen is wat het zal doen en gedaan heeft. Oftewel: er is geen vrije wil. Je kan stellen dat het bewustzijn slechts een toeschouwer is. Of dit mentaal toekijken wel of niet ruimte heeft voor vrije wil, is wellicht nooit te beantwoorden.
+Het lichaam valt onder de natuurwetten. Daardoor is te stellen dat het deterministisch is. Dit betekent dat volledig te bepalen is wat het zal doen en gedaan heeft. Oftewel: er is geen vrije wil. Je kan stellen dat het bewustzijn slechts een toeschouwer is.
 
-[1]: https://en.wikipedia.org/wiki/Free_will#Quantum_physics
-[2]: https://en.wikipedia.org/wiki/Hard_problem_of_consciousness
+[^1]: https://en.wikipedia.org/wiki/Free_will#Quantum_physics
+[^2]: https://en.wikipedia.org/wiki/Hard_problem_of_consciousness
