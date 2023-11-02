@@ -1,0 +1,6 @@
+{{ $path := .Site.GetPage (.Get 0 ) -}}
+{{ if $path -}}
+[{{ $path.Title }}]({{ $path.RelPermalink}})
+{{- else -}}
+{{ errorf "The %q shortcode requires a correct path to a page. See %s" .Name .Position }}
+{{- end -}}
