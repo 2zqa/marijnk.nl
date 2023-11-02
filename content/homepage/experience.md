@@ -5,7 +5,7 @@ experiences:
     organization:
       name: Voys
       url: https://www.voys.nl/
-    dates: "feb. 2023 - heden"
+    dates: "feb. 2023 - sept. 2023"
     location: Groningen, Nederland
     writeup: >
       Bij mijn afstudeerstage bij Voys ben ik verantwoordelijk geweest voor het opzetten van een "single source of truth" (SSOT). Ik heb onder andere:
