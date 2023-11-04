@@ -5,3 +5,6 @@ main:
   - name: Berichten
     url: /posts/
     weight: 2
+  - name: Wereldbouw
+    url: https://rutgerkok.nl/minecraft
+    weight: 3
