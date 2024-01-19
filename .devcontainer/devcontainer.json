@@ -2,5 +2,10 @@
 	"name": "Hugo",
 	"build": {
 		"dockerfile": "Dockerfile"
+	},
+	"portsAttributes": {
+		"1313": {
+			"label": "Hugo"
+		}
 	}
 }
