@@ -7,5 +7,6 @@
 		"1313": {
 			"label": "Hugo"
 		}
-	}
+	},
+	"postAttachCommand": "hugo server -D --baseUrl=/ -D --appendPort=false"	
 }
