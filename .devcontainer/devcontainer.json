@@ -1,12 +1,14 @@
 {
 	"name": "Hugo",
-	"build": {
-		"dockerfile": "Dockerfile"
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu",
+	"features": {
+		"ghcr.io/devcontainers/features/go:1": {},
+		"ghcr.io/devcontainers/features/hugo:1": {}
 	},
 	"portsAttributes": {
 		"1313": {
 			"label": "Hugo"
 		}
 	},
-	"postAttachCommand": "hugo server -D --baseUrl=/ -D --appendPort=false"
+	"postAttachCommand": "hugo server -D --baseURL=/ -D --appendPort=false"
 }
