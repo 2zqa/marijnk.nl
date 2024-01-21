@@ -8,5 +8,5 @@
 			"label": "Hugo"
 		}
 	},
-	"postAttachCommand": "hugo server -D --baseUrl=/ -D --appendPort=false"	
+	"postAttachCommand": "hugo server -D --baseUrl=/ -D --appendPort=false"
 }
