@@ -1,6 +1,6 @@
 main:
   - name: Over
-    url: '/'
+    url: '#about'
     weight: 1
   - name: Berichten
     url: /posts/
