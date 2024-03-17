@@ -4,7 +4,7 @@ authors:
  - marijn-kok
 toc: true
 date: 2022-06-05T10:45:58+00:00
-lastmod: 2023-04-01T10:00:00+00:00
+lastmod: 2024-03-16T18:00:00+00:00
 featuredImage: /images/fedora.png
 summary: Een lijst van aanpassingen, apps en tips die handig zijn na een nieuwe Fedora installatie. Ook nuttig als je een andere Linux distro gebruikt.
 categories:
@@ -41,7 +41,6 @@ _Flatpak_ is een prachtig systeem om (zonder root!) gemakkelijk apps te installe
 | Prism Launcher | org.prismlauncher.PrismLauncher | Alternatieve Minecraft launcher met moddingondersteuning |
 | Thunderbird | org.mozilla.Thunderbird | E-mailprogramma |
 
-
 ## 3. Handige uitbreidingen
 
 Als je Uitbreidingsbeheer hebt geïnstalleerd, kan je GNOME op allerlei fronten aanpassen. Persoonlijk ben ik zeer tevreden met de standaardervaring van GNOME op Fedora, maar gebruik toch een paar uitbreidingen:
@@ -58,13 +57,24 @@ Als je veelvuldig gebruik maakt van sneltoetsen zoals ik, is ctrl op caps lock z
   2. Open de app
   3. Ga naar Toetsenbord & muis > Extra vormgevingsopties > Positie van Ctrl-toets. Vink "CapsLock is Ctrl-toets" aan.
 
-## 5. Trackpad ingeschakeld houden tijdens typen
+## 5. Vensters vergroten en verplaatsen zonder de rand te hoeven vinden
+
+Vensters manipuleren kan soms best moeizaam zijn. De rand van een venster is smal en een muis beweegt redelijk snel. Een alternatief is om met de meta-toets[^1] in combinatie met de rechtermuisknop de grootte van vensters te veranderen, en om met de linkermuisknop het venster te verplaatsen.
+
+Ga naar Afstellingen > Windows en schakel "Afmetingen wijzigen met rechtermuisknop" in.
+
+
+{{< figure caption="Video van een venster dat vergroot en verplaatst wordt, zonder dat de rand wordt aangeraakt." >}}
+<video src="images/resize-move-window.webm" width=75% controls>Video van een venster dat vergroot en verplaatst wordt, zonder dat de rand wordt aangeraakt</video>
+{{< /figure >}}
+
+## 6. Trackpad ingeschakeld houden tijdens typen
 
 Mocht je een trackpad gebruiken maar ook spelletjes willen spelen, dan is het aan te raden om dit te doen. Anders kan je niet tegelijk lopen en rondkijken bijvoorbeeld.
 
 Ga weer naar de Afstellingen-app en vervolgens naar Toetsenbord & muis. Schakel vervolgens "Uitschakelen tijdens typen" uit onder Touchpad.
 
-## 6. Firefox instellingen
+## 7. Firefox instellingen
 
 Ik gebruik Firefox al jaren en kan het sterk aanraden. Er zijn echter een paar aanpassingen die ik maak om het nog beter te maken.
 
@@ -78,28 +88,42 @@ mousewheel.default.delta_multiplier_x: 30
 mousewheel.default.delta_multiplier_y: 30
 ```
 
-## 7. adw-gtk3 thema
+## 8. adw-gtk3 thema
 
-[Libadwaita][2] is een nieuwe bibliotheek van bouwblokken om moderne apps mee te maken. Sinds het officieel is vrijgegeven zijn er steeds meer apps die er gebruik van maken. Om ook oude apps als nieuw te laten lijken, is het thema adw-gtk3 ontwikkeld. Kijk op de GitHub pagina voor installatie-instructies: https://github.com/lassekongo83/adw-gtk3#other-install-options
+[Libadwaita][2] is een bibliotheek van bouwblokken om moderne apps mee te maken. Sinds het officieel is vrijgegeven zijn er steeds meer apps die er gebruik van maken. Om ook oude apps als nieuw te laten lijken, is het thema adw-gtk3 ontwikkeld. Kijk op de GitHub pagina voor installatie-instructies: https://github.com/lassekongo83/adw-gtk3#other-installation-options
 
 Installeer de flatpak én de reguliere versie om ervoor te zorgen dat al je apps het nieuwe thema krijgen. Het thema kan met de Afstellingen-app ingesteld worden onder het kopje "Uiterlijk", of automatisch met een extensie. Zie daarvoor het volgende kopje!
 
 {{< figure caption="Standaard-thema (oud)" >}}{{< picture src="images/tilix-adwaita.png" >}}{{< /figure >}}
 {{< figure caption="adw-gtk3 (nieuw)" >}}{{< picture src="images/tilix-adw-gtk3.png" >}}{{< /figure >}}
 
-## 8. Automatische nachtmodus
+## 9. Automatische nachtmodus
 
 Het gekibbel over donker versus licht thema is zo passé. De ware oplossing is een automatisch ingestelde lichte en donkere modus gebaseerd op de stand van de zon, zoals moeder natuur het bedoelde. 😉
 
-Installeer eerst Uitbreidingsbeheer via de Software-app. Zoek in de app naar Night Theme Switcher en installeer deze. Open de instellingen van de extensie en ga naar "Thema's". Klik op "GTK-thema's afwisselen" en kies je lichte en donkere thema, bijvoorbeeld adw-gtk3 en adw-gtk3-dark.
+Installeer eerst Uitbreidingsbeheer via de Software-app. Zoek in de app naar "Night Theme Switcher" en installeer deze. Open de instellingen van de extensie en ga naar "Thema's". Klik op "GTK-thema's afwisselen" en kies je lichte en donkere thema, bijvoorbeeld adw-gtk3 en adw-gtk3-dark.
 
 Tip: installeer ook [Dark Reader][5] om websites in het donker weer te geven. Dit kan ook ingesteld worden om te reageren op je systeemthema.
+
+Nog een tip: Als je liever handmatig tussen donkere en lichte modus wisselt, raad ik aan om "Legacy (GTK3) Theme Scheme Auto Switcher" te installeren. Zo worden oude apps ook naar donkere modus gewisseld, in plaats van alleen moderne apps.
+
+## 10. Alt-tab zoals op Windows
+
+Hoewel ik waardeer dat GNOME probeert de bureaubladstandaarden te verbeteren waar anderen dat niet durven, slaan ze met dit risico geheid de plank soms mis. Zo ook hier: standaard schakelt alt-tab alleen tussen vensters van dezelfde app, in plaats van schakelen tussen recent gebruikte vensters. Dit kan je als volgt herstellen:
+
+Ga naar instellingen > Toetsenbord > Sneltoetsen bekijken en aanpassen > Navigatie, en stel "Tussen toepassingen schakelen" in op Alt+Tab.
+
+## 11. Tikken om te klikken
+
+Voor laptopgebruikers: als je ook gek wordt van het lawaai dat sommige trackpads maken als je ze indrukt, kan tikken om te klikken veel praktischer zijn.
+
+Dit kan je inschakelen door te gaan naar de instellingen > Muis en touchpad te gaan en "Tikken om te klikken" in te schakelen.
 
 ## Extra's:
 
 Deze dingen zijn wat specifieker aan mijn gebruik, maar kunnen nog steeds handig zijn om te weten.
 
-### 9. Trackpad scrollsnelheid herstellen
+### 10. Trackpad scrollsnelheid herstellen
 
 Mocht je merken dat je trackpad veel te gevoelig is na je installatie (of bij meer apps dan alleen Firefox), dan deel ik hierbij graag de beste oplossing die ik gevonden heb. Hopelijk wordt dit in een toekomstige versie van GNOME goed opgelost zoals omschreven in [dit issue][6], maar in de tussentijd zullen we afhankelijk zijn van deze hack genaamd libinput-config.
 
@@ -114,7 +138,7 @@ scroll-factor=0.2
 gesture-speed=0.85
 ```
 
-### 10. Nieuwste Java-versie
+### 11. Nieuwste Java-versie
 
 Om altijd de laatste versie van Java te hebben, voer je het volgende commando uit:
 
@@ -124,13 +148,49 @@ Stel optioneel je standaard java-versie in met:
 
 `sudo update-alternatives --config java`
 
-### 11. OneDrive
+### 12. OneDrive
 
-Vanwege dataverlies op een oude Nextcloud instantie van mij vertrouw ik mezelf niet zo goed meer met het veilig stellen van data. Daarom gebruik ik een externe hostingoplossing, wat op dit moment Microsoft OneDrive is. Op Linux is OneDrive helaas niet officieel beschikbaar behalve via de website, maar rclone heeft functionaliteit om je OneDrive bestanden te synchroniseren. Bekijk hun website voor de instructies: <https://rclone.org/onedrive/>
+Vanwege dataverlies op een oude Nextcloud instantie van mij vertrouw ik mezelf niet zo goed meer met het veilig stellen van data. Daarom gebruik ik een externe hostingoplossing, wat op dit moment Microsoft OneDrive is. Microsoft stelt OneDrive helaas niet officieel beschikbaar op Linux behalve via de website, maar rclone heeft functionaliteit om je OneDrive-bestanden te synchroniseren ([OneDrive komt ook binnenkort naar GNOME][7] gelukkig). Volg eerst rclone's instructies op hun website: <https://rclone.org/onedrive/>
 
- [1]: https://addons.mozilla.org/en-US/firefox/addon/enhanced-h264ify/
- [2]: https://blogs.gnome.org/alexm/2021/12/31/libadwaita-1-0/
- [3]: https://marijnk.nl/?attachment_id=129
- [4]: https://marijnk.nl/?attachment_id=128
- [5]: https://darkreader.org/
- [6]: https://gitlab.gnome.org/GNOME/gtk/-/issues/4793
+Volg daarna de volgende stappen:
+
+1. Maak een OneDrive map aan in je thuis-map: `mkdir ~/OneDrive`
+2. Maak een map voor user systemd-services, mocht die nog niet bestaan: `mkdir -p ~/.config/systemd/user/`
+3. Maak vervolgens het bestand `rclone-onedrive.service` aan met de volgende inhoud:
+
+    ```ini
+    [Unit]
+    Description=OneDrive (rclone)
+    AssertPathIsDirectory=%h/OneDrive
+    # Make sure we have network enabled
+    After=network.target
+
+    [Service]
+    Type=simple
+
+    ExecStart=/usr/bin/rclone mount --vfs-cache-mode full onedrive: %h/OneDrive
+
+    # Perform lazy unmount
+    ExecStop=/usr/bin/fusermount -zu %h/OneDrive
+
+    # Restart the service whenever rclone exists with non-zero exit code
+    Restart=on-failure
+    RestartSec=3
+
+    [Install]
+    # Autostart after reboot
+    WantedBy=default.target
+    ```
+
+4. Schakel tenslotte de service in met het volgende commando (vereist géén root). De `--now` parameter start de service ook direct[^2]. `systemctl enable --now --user rclone-onedrive.service`
+
+[1]: https://addons.mozilla.org/en-US/firefox/addon/enhanced-h264ify/
+[2]: https://blogs.gnome.org/alexm/2021/12/31/libadwaita-1-0/
+[3]: https://marijnk.nl/?attachment_id=129
+[4]: https://marijnk.nl/?attachment_id=128
+[5]: https://darkreader.org/
+[6]: https://gitlab.gnome.org/GNOME/gtk/-/issues/4793
+[7]: https://www.omgubuntu.co.uk/2024/02/onedrive-support-planned-gvfs-gnome-46
+
+[^1]: Ook bekend als de Windows- of Commandtoets.
+[^2]: https://www.freedesktop.org/software/systemd/man/latest/systemctl.html#enable%20UNIT%E2%80%A6
