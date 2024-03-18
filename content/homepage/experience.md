@@ -7,7 +7,17 @@ experiences:
       url: https://www.voys.nl/
     dates: "nov. 2023 - heden"
     location: Groningen, Nederland
-  - title: Infrastructuur stagiair
+    writeup: >
+      Bij Voys werk ik aan software die klanten van Voys helpt om hun relaties met klanten te verbeteren. Ik heb onder andere:
+
+      - in teamverband een API voor contacten opslaan herschreven;
+
+      - kleine maar betekenisvolle wijzigingen doorgevoerd in verscheidene services;
+
+      - codereviews uitgevoerd, en;
+
+      - resultaten vastgelegd van holacratische meetings als _Secretary_.
+
     organization:
       name: Voys
       url: https://www.voys.nl/
