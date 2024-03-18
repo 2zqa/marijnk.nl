@@ -29,7 +29,7 @@ experiences:
 
       - projectmatig gewerkt;
 
-      - programma's ontworpen en ontwikkeld voor het uitlezen, verzamelen en weergeven van hardware- en netwerkinformatie;
+      - programma's ontworpen en ontwikkeld voor het uitlezen, verzamelen en weergeven van hardware- en netwerkinformatie, en;
 
       - tientallen requirements en vijftien user stories van stakeholders in kaart gebracht en grotendeels implementeren.
 
@@ -40,11 +40,11 @@ experiences:
     dates: "feb. 2022 - sept. 2022"
     location: Groningen, Nederland
     writeup: >
-      Als stagiair bij Web-IQ heb ik gewerkt aan een proof of concept van het bijwerken van een stuk software. Mijn verantwoordelijkheden omvatten:
+      Als stagiair bij Web-IQ heb ik gewerkt aan een proof of concept van het bijwerken van een stuk software. Ik heb onder andere:
 
-      - projectmatig te werk gaan;
+      - projectmatig gewerkt, en;
 
-      - wensen en eisen van stakeholders in kaart brengen en implementeren.
+      - wensen en eisen van stakeholders in kaart gebracht en geïmplementeerd.
 
   - title: Computerspecialist
     organization:
@@ -53,13 +53,13 @@ experiences:
     dates: "jun. 2019 - feb. 2023"
     location: Nederland
     writeup: >
-      Als computerspecialist bij Uw Computerstudent bood ik technische ondersteuning aan klanten. Ik was medewerker van de maand in mei 2022. Bij Uw Computerstudent hielp ik klanten bijvoorbeeld met:
+      Als computerspecialist bij Uw Computerstudent bood ik technische ondersteuning aan klanten. Ik was medewerker van de maand in mei 2022. Bij Uw Computerstudent hielp ik klanten bijvoorbeeld door:
 
-      - het installeren en configureren van softwareprogramma's;
+      - programma's naar wens te installeren en te configureren;
 
-      - lesgeven aan klanten over het gebruik van computers en software;
+      - les te geven over het gebruik van computers en software, en;
 
-      - gemiddeld twee à drie keer per week zelfstandig afspraken plannen en uitvoeren.
+      - gemiddeld twee à drie keer per week zelfstandig afspraken in te plannen en uit te voeren.
 
 weight: 3
 widget:
