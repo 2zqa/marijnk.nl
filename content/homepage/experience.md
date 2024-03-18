@@ -18,6 +18,7 @@ experiences:
 
       - resultaten vastgelegd van holacratische meetings als _Secretary_.
 
+  - title: Stagiair
     organization:
       name: Voys
       url: https://www.voys.nl/
@@ -32,7 +33,7 @@ experiences:
 
       - tientallen requirements en vijftien user stories van stakeholders in kaart gebracht en grotendeels implementeren.
 
-  - title: Web-IQ stagiair
+  - title: Stagiair
     organization:
       name: Web-IQ
       url: https://web-iq.com/
