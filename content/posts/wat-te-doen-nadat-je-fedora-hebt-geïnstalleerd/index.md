@@ -1,5 +1,5 @@
 ---
-title: Wat te doen nadat je Fedora hebt geïnstalleerd (bijgewerkt april 2023)
+title: Wat te doen nadat je Fedora hebt geïnstalleerd (bijgewerkt maart 2024)
 authors:
  - marijn-kok
 toc: true
