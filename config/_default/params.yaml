@@ -7,6 +7,8 @@ siteType: Person
 icon: images/icon.png
 publisherName: Marijn Kok
 publisherLogo:
+math:
+  handler: katex
 
 highlight:
   handler: highlightjs
