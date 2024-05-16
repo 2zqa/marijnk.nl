@@ -6,7 +6,6 @@ date: 2024-05-16T23:37:48+02:00
 featuredImage: /images/pexels-mateusz-dach-99805-332835.jpg
 categories: []
 tags: []
-draft: true
 enableMath: true
 summary: Bereken je tempo met afstand en tijd, converteer km/h naar tempo en vice-versa.
 ---
