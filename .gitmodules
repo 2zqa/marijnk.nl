@@ -1,0 +1,3 @@
+[submodule "themes/eureka"]
+	path = themes/eureka
+	url = git@github.com:acrazyczy/hugo-eureka.git
