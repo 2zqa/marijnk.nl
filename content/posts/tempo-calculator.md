@@ -1,5 +1,5 @@
 ---
-title: Handige tempo en snelheid calculator
+title: Handige tempo- en snelheidcalculator
 authors:
   - marijn-kok
 date: 2024-05-16T23:37:48+02:00
