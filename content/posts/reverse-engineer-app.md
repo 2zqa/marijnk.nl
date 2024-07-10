@@ -28,11 +28,11 @@ Altijd al eens willen weten hoe een app communiceert met zijn server? Met behulp
 ## 2. Afvangen van verkeer
 
 1. Start de mitm: `mitmweb`
-3. Configureer de proxy op de emulator of het apparaat. (Als dit niet werkt in de instellingen van de emulator, kan je ook de proxy instellen in de instellingen-app. Zie https://stackoverflow.com/a/78154250)
+3. Configureer de proxy op de emulator of het apparaat _(Als dit niet werkt in de instellingen van de emulator, kan je ook de proxy instellen in de instellingen-app. Zie https://stackoverflow.com/a/78154250)_
 
 ## 3. CA certificaat installeren op Android
 
-1. Open http://mitm.it/ in de browser van de emulator of het apparaat. (Als dit niet werkt, heb je waarschijnlijk de proxy niet goed ingesteld)
+1. Open http://mitm.it/ in de browser van de emulator of het apparaat _(Als dit niet werkt, heb je waarschijnlijk de proxy niet goed ingesteld)_
 2. Download het certificaat
 3. Installeer het certificaat in de instellingen van het systeem
 
