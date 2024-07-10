@@ -21,18 +21,18 @@ Altijd al eens willen weten hoe een app communiceert met zijn server? Met behulp
 
 1. Download de app die je wil reverse engineeren van de Play Store _(al bij de hand? Ga naar stap 4)_
 2. Vind het pad van de apk: `adb shell pm list packages -f -3`, optioneel met grep erachteraan. Dit geeft bijvoorbeeld `package:/data/app/~~9Jg8vCv5DYdaNbVeICtEqA==/nl.voedingscentrum.slimkoken-SzgrrdeyVzQfDNDQvi091g==/base.apk=nl.voedingscentrum.slimkoken`. Het pad is dan vanaf /data t/m .apk. Of met RegEx: `\/data.*apk`
-3. Download de apk naar de huidige map: `adb pull /data/app/<apk-path> .`
-4. Gebruik apk-mitm om de apk te patchen: `apk-mitm <apk-path>`
-5. Installeer de apk op de emulator: `adb install <patched-apk-path>`
+3. Download de apk naar de huidige map: `adb pull <apk-path> .`
+4. Gebruik apk-mitm om de apk te patchen: `apk-mitm <local-apk-path>`
+5. Installeer de apk op het apparaat: `adb install <patched-apk-path>`
 
 ## 2. Afvangen van verkeer
 
 1. Start de mitm: `mitmweb`
-3. Configureer de proxy op de emulator of het apparaat _(Als dit niet werkt in de instellingen van de emulator, kan je ook de proxy instellen in de instellingen-app. Zie https://stackoverflow.com/a/78154250)_
+3. Configureer de proxy op het apparaat _(Als dit niet werkt in de instellingen van de emulator, kan je ook de proxy instellen in de instellingen-app. Zie https://stackoverflow.com/a/78154250)_
 
 ## 3. CA certificaat installeren op Android
 
-1. Open http://mitm.it/ in de browser van de emulator of het apparaat _(Als dit niet werkt, heb je waarschijnlijk de proxy niet goed ingesteld)_
+1. Open http://mitm.it/ in de browser van het apparaat _(Als dit niet werkt, heb je waarschijnlijk de proxy niet goed ingesteld)_
 2. Download het certificaat
 3. Installeer het certificaat in de instellingen van het systeem
 
