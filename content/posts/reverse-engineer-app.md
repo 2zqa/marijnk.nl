@@ -5,10 +5,8 @@ authors:
 date: 2024-07-10T01:39:30+02:00
 featuredImage: '/images/mitmproxy.png'
 categories: []
-tags: []
-draft: true
-summary: Altijd al eens willen weten hoe een app communiceert met zijn server? Met behulp van apk-mitm en mitmproxy kan je het verkeer van een app afvangen en analyseren **zonder root**.
-
+tags: [tutorial, android]
+summary: Altijd al eens willen weten hoe een app communiceert met zijn server? Met behulp van apk-mitm en mitmproxy kan je het verkeer van een app afvangen en analyseren zonder root.
 ---
 Altijd al eens willen weten hoe een app communiceert met zijn server? Met behulp van apk-mitm en mitmproxy kan je het verkeer van een app afvangen en analyseren **zonder root**. In deze tutorial leg ik uit hoe je dit doet.
 
