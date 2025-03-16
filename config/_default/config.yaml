@@ -2,7 +2,7 @@ baseURL: "https://marijnk.nl"
 title: Marijn Kok
 theme: wangchucheng.com/hugo-eureka
 
-paginate: 5
+pagination.pagerSize: 5
 copyright: >
   &copy; Marijn Kok
 enableEmoji: true
